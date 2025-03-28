@@ -1,0 +1,30 @@
+/* Painel do Autor */
+.peerflow-dashboard {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.peerflow-submissions {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.peerflow-submissions td,
+.peerflow-submissions th {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.peerflow-submissions tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Formulário de Submissão */
+#peerflow-submission-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
